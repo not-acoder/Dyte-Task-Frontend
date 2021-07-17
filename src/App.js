@@ -3,7 +3,8 @@ import { Controlled as CodeMirror } from "react-codemirror2";
 import Pusher from "pusher-js";
 import pushid from "pushid";
 import axios from "axios";
-
+import Dropdown from 'react-bootstrap/Dropdown';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import "codemirror/lib/codemirror.css";
 import "codemirror/theme/material.css";
@@ -19,8 +20,13 @@ class App extends Component {
       id: "",
       html: "",
       css: "",
-      js: ""
-    };
+      js:"",
+
+
+    }
+    
+    ;
+
 
     this.pusher = new Pusher("18160601861a89d7f8f7", {
       cluster: "eu",
@@ -33,6 +39,7 @@ class App extends Component {
   componentDidUpdate() {
     this.runCode();
   }
+
 
   componentDidMount() {
     this.setState({
@@ -89,11 +96,18 @@ class App extends Component {
     document.write(documentContents);
     document.close();
   };
+ /*language(id)
+  {
+    this.setState(prev=>({
+      divid:id
+    }))
+    //console.log(this.state.divid)
+  }*/
 
   render() {
     const { html, js, css } = this.state;
     const codeMirrorOptions = {
-      theme: "material",
+      theme: "dark",
       lineNumbers: true,
       scrollbarStyle: null,
       lineWrapping: true
@@ -103,7 +117,7 @@ class App extends Component {
       <div className="App">
         <section className="playground">
           <div className="code-editor html-code">
-            <div className="editor-header">HTML</div>
+            <div className="editor-header">HTML,CSS,JS</div>
             <CodeMirror
               value={html}
               options={{
@@ -115,7 +129,18 @@ class App extends Component {
               }}
             />
           </div>
-          <div className="code-editor css-code">
+          <Dropdown>
+            <Dropdown.Toggle variant="success" id="dropdown-basic">
+              File Manager
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item href="javascript;">HTML</Dropdown.Item>
+              <Dropdown.Item href="javascript;">CSS</Dropdown.Item>
+              <Dropdown.Item href="javascript;">JS</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+          {/*<div className="code-editor css-code">
             <div className="editor-header">CSS</div>
             <CodeMirror
               value={css}
@@ -140,7 +165,7 @@ class App extends Component {
                 this.setState({ js }, () => this.syncUpdates());
               }}
             />
-          </div>
+            </div>*/}
         </section>
         <section className="result">
           <iframe title="result" className="iframe" ref="iframe" />
