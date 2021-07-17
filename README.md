@@ -1,3 +1,9 @@
+Submission for Dyte - Front End Task.
+I have no prior experience with react or front end development. My project is heavily inspired [from this article](https://pusher.com/tutorials/code-playground-react/), I tweaked the code editors to remove two of the three editors as specified in the task. I added a dropdown to change the current editor. However the knowldege I acquired in the past 24 hours wasn't sufficient to build it completely. [Link to githubpages](https://not-acoder.github.io/Dyte-Task-Frontend/)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
