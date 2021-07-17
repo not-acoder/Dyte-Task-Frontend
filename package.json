@@ -1,7 +1,9 @@
+
 {
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://not-acoder.github.io/Dyte-Task-Frontend",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -10,7 +12,7 @@
     "bootstrap": "^5.0.2",
     "codemirror": "^5.62.0",
     "gh-pages": "^3.2.3",
-    "homepage": "http://not-acoder.github.io/Dyte-Task-Frontend",
+    
     "pusher-js": "^7.0.3",
     "pushid": "^1.0.0",
     "react": "^17.0.2",
