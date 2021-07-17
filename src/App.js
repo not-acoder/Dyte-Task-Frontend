@@ -135,9 +135,9 @@ class App extends Component {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item href="javascript;">HTML</Dropdown.Item>
-              <Dropdown.Item href="javascript;">CSS</Dropdown.Item>
-              <Dropdown.Item href="javascript;">JS</Dropdown.Item>
+              <Dropdown.Item href="javascript;">Index.html</Dropdown.Item>
+              <Dropdown.Item href="javascript;">Index.css</Dropdown.Item>
+              <Dropdown.Item href="javascript;">Index.js</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
           {/*<div className="code-editor css-code">
