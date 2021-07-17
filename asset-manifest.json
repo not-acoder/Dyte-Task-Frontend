@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Dyte-Task-Frontend/static/css/main.57434464.chunk.css",
+    "main.js": "/Dyte-Task-Frontend/static/js/main.045086fc.chunk.js",
+    "main.js.map": "/Dyte-Task-Frontend/static/js/main.045086fc.chunk.js.map",
+    "runtime-main.js": "/Dyte-Task-Frontend/static/js/runtime-main.72741895.js",
+    "runtime-main.js.map": "/Dyte-Task-Frontend/static/js/runtime-main.72741895.js.map",
+    "static/css/2.c3d967b2.chunk.css": "/Dyte-Task-Frontend/static/css/2.c3d967b2.chunk.css",
+    "static/js/2.c91144ba.chunk.js": "/Dyte-Task-Frontend/static/js/2.c91144ba.chunk.js",
+    "static/js/2.c91144ba.chunk.js.map": "/Dyte-Task-Frontend/static/js/2.c91144ba.chunk.js.map",
+    "static/js/3.956d3beb.chunk.js": "/Dyte-Task-Frontend/static/js/3.956d3beb.chunk.js",
+    "static/js/3.956d3beb.chunk.js.map": "/Dyte-Task-Frontend/static/js/3.956d3beb.chunk.js.map",
+    "index.html": "/Dyte-Task-Frontend/index.html",
+    "static/css/2.c3d967b2.chunk.css.map": "/Dyte-Task-Frontend/static/css/2.c3d967b2.chunk.css.map",
+    "static/css/main.57434464.chunk.css.map": "/Dyte-Task-Frontend/static/css/main.57434464.chunk.css.map",
+    "static/js/2.c91144ba.chunk.js.LICENSE.txt": "/Dyte-Task-Frontend/static/js/2.c91144ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72741895.js",
+    "static/css/2.c3d967b2.chunk.css",
+    "static/js/2.c91144ba.chunk.js",
+    "static/css/main.57434464.chunk.css",
+    "static/js/main.045086fc.chunk.js"
+  ]
+}
